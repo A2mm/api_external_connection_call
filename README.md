@@ -15,6 +15,7 @@
 -   create database with name of your choice
 -   run php artisan migrate
 -   run php artisan serve
+-   run php artisan test
 
 ### How to feed DB with products data (call external api)
 
