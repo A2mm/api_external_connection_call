@@ -20,4 +20,4 @@ Artisan::command('fetch:products', function () {
         $this->error('Failed to fetch products: ' . $e->getMessage());
     }
     $this->comment('Products fetched successfully.');
-})->purpose('fetch products')->dailyAt('21:24');
+})->purpose('fetch products')->hourly();

@@ -10,7 +10,7 @@ class ProductService
 {
     public function index(array $filters)
     {
-        return Product::paginate(10);
+        return Product::paginate(paginationSize());
     }
 
     public function show(Product $product): Product
